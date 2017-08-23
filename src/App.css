@@ -1,0 +1,17 @@
+.game-board {
+  background-color: #ccc;
+  height: 100vh;
+  /*margin: 0 auto;*/
+  width: 600px;
+}
+
+.game-pixel {
+  box-sizing: border-box;
+  border: 1px solid #000;
+  display: inline-block;
+  float: left;
+}
+
+.game-pixel.filled {
+  background-color: #000;
+}
